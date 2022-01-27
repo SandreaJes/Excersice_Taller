@@ -41,7 +41,7 @@ let minAmount=  coin.sort((x,y)=> x-y).reduce(nonContructibleChange)
   <li>[1, 2, 3, 5, 6, 8, 9] -> [1, 4, 9, 25, 36, 64, 81]</li>
   <li>[-2, -1] -> [1, 4]</li>
   <li>[-10, -5, 0, 5, 10] -> [0, 25, 25, 100, 100]</li>
-</ol>
+
  ## Solution
  const  arr=  [1, 2, 3, 5, 6, 8, 9] 
   let output = arr.map(x => x * x).sort((x,y)=> x-y)
